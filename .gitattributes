@@ -1,0 +1,158 @@
+# Git attributes for better handling of different file types
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Text files
+*.md text
+*.txt text
+*.json text
+*.js text
+*.ts text
+*.jsx text
+*.tsx text
+*.css text
+*.scss text
+*.sass text
+*.less text
+*.html text
+*.htm text
+*.xml text
+*.svg text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.cfg text
+*.conf text
+*.sh text eol=lf
+*.fish text eol=lf
+
+# Source code
+*.c text
+*.cpp text
+*.cxx text
+*.h text
+*.hpp text
+*.hxx text
+*.py text
+*.rb text
+*.go text
+*.rs text
+*.php text
+*.pl text
+*.sql text
+
+# Web assets
+*.js text
+*.css text
+*.scss text
+*.sass text
+*.less text
+*.styl text
+
+# Serialisation
+*.json text
+*.toml text
+*.xml text
+*.yaml text
+*.yml text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.svg text
+*.eps binary
+*.ai binary
+*.webp binary
+*.avif binary
+
+# Audio
+*.kar binary
+*.m4a binary
+*.mid binary
+*.midi binary
+*.mp3 binary
+*.ogg binary
+*.ra binary
+*.wav binary
+*.aac binary
+*.flac binary
+
+# Video
+*.3gpp binary
+*.3gp binary
+*.as binary
+*.asf binary
+*.asx binary
+*.fla binary
+*.flv binary
+*.m4v binary
+*.mng binary
+*.mov binary
+*.mp4 binary
+*.mpeg binary
+*.mpg binary
+*.ogv binary
+*.swc binary
+*.swf binary
+*.webm binary
+*.avi binary
+*.mkv binary
+
+# Archives
+*.7z binary
+*.gz binary
+*.jar binary
+*.rar binary
+*.tar binary
+*.zip binary
+*.bz2 binary
+*.xz binary
+
+# Fonts
+*.ttf binary
+*.eot binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Executables
+*.exe binary
+*.pyc binary
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc text
+
+# Ignore files (like .gitignore or .npmignore)
+*.*ignore text
+
+# Define diff driver for generated files
+*.generated.* -diff
+*-generated.* -diff
+*.generated -diff
+*-generated -diff
+
+# Linguist language detection
+*.generated.* linguist-generated
+*-generated.* linguist-generated
+docs/* linguist-documentation
+examples/* linguist-documentation
+test/* linguist-documentation
+tests/* linguist-documentation
+spec/* linguist-documentation
+specs/* linguist-documentation
