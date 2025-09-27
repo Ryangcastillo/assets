@@ -1,0 +1,27 @@
+{
+  "id": "pricing-card",
+  "name": "Pricing Card",
+  "type": "component",
+  "categories": ["marketing"],
+  "description": "Flexible pricing card with feature list, CTA button, and highlight state.",
+  "files": [
+    {
+      "src": "src/pricing-card.tsx",
+      "dest": "components/pricing-card.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/pricing-card.preview.tsx"
+  },
+  "dependencies": [
+    "lucide-react"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}

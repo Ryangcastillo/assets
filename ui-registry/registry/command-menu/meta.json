@@ -1,0 +1,28 @@
+{
+  "id": "command-menu",
+  "name": "Command Menu",
+  "type": "component",
+  "categories": ["navigation"],
+  "description": "Command palette powered by cmdk with keyboard shortcut support.",
+  "files": [
+    {
+      "src": "src/command-menu.tsx",
+      "dest": "components/command-menu.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/command-menu.preview.tsx"
+  },
+  "dependencies": [
+    "cmdk",
+    "lucide-react"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}
