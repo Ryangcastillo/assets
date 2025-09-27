@@ -1,0 +1,28 @@
+{
+  "id": "auth-dropdown",
+  "name": "Auth Dropdown",
+  "type": "component",
+  "categories": ["authentication", "navigation"],
+  "description": "Profile dropdown with avatar, account actions, and sign-out control.",
+  "files": [
+    {
+      "src": "src/auth-dropdown.tsx",
+      "dest": "components/auth-dropdown.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/auth-dropdown.preview.tsx"
+  },
+  "dependencies": [
+    "lucide-react"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "next": ">=13.4.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}

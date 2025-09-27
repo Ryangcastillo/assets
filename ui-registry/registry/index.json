@@ -1,0 +1,48 @@
+{
+  "registry": "private-ui",
+  "version": 1,
+  "items": [
+    {
+      "id": "ai-chat-window",
+      "name": "AI Chat Window",
+      "type": "component",
+      "categories": ["ai", "chat"],
+      "meta": "./ai-chat-window/meta.json"
+    },
+    {
+      "id": "ai-message-list",
+      "name": "AI Message List",
+      "type": "component",
+      "categories": ["ai", "chat"],
+      "meta": "./ai-message-list/meta.json"
+    },
+    {
+      "id": "ai-input",
+      "name": "AI Input",
+      "type": "component",
+      "categories": ["ai", "form"],
+      "meta": "./ai-input/meta.json"
+    },
+    {
+      "id": "command-menu",
+      "name": "Command Menu",
+      "type": "component",
+      "categories": ["navigation"],
+      "meta": "./command-menu/meta.json"
+    },
+    {
+      "id": "pricing-card",
+      "name": "Pricing Card",
+      "type": "component",
+      "categories": ["marketing"],
+      "meta": "./pricing-card/meta.json"
+    },
+    {
+      "id": "auth-dropdown",
+      "name": "Auth Dropdown",
+      "type": "component",
+      "categories": ["authentication", "navigation"],
+      "meta": "./auth-dropdown/meta.json"
+    }
+  ]
+}

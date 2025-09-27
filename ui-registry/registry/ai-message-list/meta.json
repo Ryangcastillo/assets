@@ -1,0 +1,25 @@
+{
+  "id": "ai-message-list",
+  "name": "AI Message List",
+  "type": "component",
+  "categories": ["ai", "chat"],
+  "description": "Stacked chat bubble list with sensible defaults and empty state messaging.",
+  "files": [
+    {
+      "src": "src/ai-message-list.tsx",
+      "dest": "components/ai/message-list.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/ai-message-list.preview.tsx"
+  },
+  "dependencies": [],
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}

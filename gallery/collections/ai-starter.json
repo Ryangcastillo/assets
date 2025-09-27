@@ -1,0 +1,6 @@
+{
+  "id": "ai-starter",
+  "name": "AI Starter Collection",
+  "description": "Chat interface essentials for rapid prototyping.",
+  "items": ["ai-chat-window", "ai-message-list", "ai-input", "auth-dropdown"]
+}
