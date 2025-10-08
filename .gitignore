@@ -4,3 +4,105 @@ out
 dist
 gallery/dist
 .DS_Store
+# Operating Systems
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vercel/
+.netlify/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Large binary files (add exceptions as needed)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+# Allow small assets
+!assets/videos/**/*.mp4
+!assets/videos/**/*.mov
+!assets/videos/**/*.webm
+
+# Generated documentation
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Package manager lockfiles (keep one, comment others)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Local configuration
+.local/
+config.local.*
