@@ -111,6 +111,11 @@ async function ensureCleanDirectory(targetDir: string, force: boolean) {
   } catch (error) {
     if (!force) {
       throw error;
+    } else {
+      console.warn(
+        `[ensureCleanDirectory] Failed to remove directory '${targetDir}' with force=true:`,
+        error
+      );
     }
   }
   await mkdir(targetDir, { recursive: true });
