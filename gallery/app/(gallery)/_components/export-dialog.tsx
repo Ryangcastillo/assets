@@ -45,8 +45,14 @@ export function ExportDialog({ selected }: ExportDialogProps) {
 
   async function handleCopy(value: string | undefined) {
     if (!value) return;
-    await navigator.clipboard.writeText(value);
-    setStatus(`Copied path to clipboard: ${value}`);
+    try {
+      await navigator.clipboard.writeText(value);
+      setStatus(`Copied path to clipboard: ${value}`);
+    } catch (error) {
+      setError(
+        "Failed to copy to clipboard. Your browser may not support this feature."
+      );
+    }
   }
 
   return (
