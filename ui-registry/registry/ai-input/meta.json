@@ -1,0 +1,27 @@
+{
+  "id": "ai-input",
+  "name": "AI Input",
+  "type": "component",
+  "categories": ["ai", "form"],
+  "description": "Message composer with optional voice trigger and async submit handler.",
+  "files": [
+    {
+      "src": "src/ai-input.tsx",
+      "dest": "components/ai/input.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/ai-input.preview.tsx"
+  },
+  "dependencies": [
+    "lucide-react"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}

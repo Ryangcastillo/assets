@@ -1,0 +1,29 @@
+{
+  "id": "ai-chat-window",
+  "name": "AI Chat Window",
+  "type": "component",
+  "categories": ["ai", "chat"],
+  "description": "Full chat surface with header, streaming indicator, and message composer.",
+  "files": [
+    {
+      "src": "src/ai-chat-window.tsx",
+      "dest": "components/ai/chat-window.tsx",
+      "type": "component"
+    }
+  ],
+  "preview": {
+    "src": "src/ai-chat-window.preview.tsx"
+  },
+  "dependencies": [
+    "lucide-react"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "next": ">=13.4.0",
+    "ai": ">=2.2.0"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  }
+}
